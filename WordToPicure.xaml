@@ -1,0 +1,339 @@
+﻿<Page x:Class="Memory_Test_Game.WordToPicure"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Memory_Test_Game"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1600"
+      Title="WordToPicure">
+
+    <Grid Background="White">
+        <Label Content="Word-To-Picture" HorizontalAlignment="Left" Height="100" Margin="600,30,0,0" VerticalAlignment="Top" Width="370" FontSize="48" />
+
+        <!-- Category 1 -->
+        <Viewbox Width="75" Height="75" Margin="100,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg1" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+
+        <Viewbox Width="75" Height="75" Margin="190,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg2" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="280,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg3" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="370,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg4" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="460,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg5" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="550,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg6" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="640,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg7" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="730,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg8" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="820,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg9" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="910,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg10" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+
+        <!-- Category 2 -->
+        <Viewbox Width="75" Height="75" Margin="100,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg11" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="190,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg12" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="280,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg13" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="370,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg14" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="460,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg15" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="550,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg16" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="640,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg17" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="730,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg18" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="820,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg19" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="910,410,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg20" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+
+        <!-- Category 3 -->
+        <Viewbox Width="75" Height="75" Margin="100,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg21" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="190,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg22" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="280,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg23" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="370,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg24" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="460,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg25" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="550,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg26" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="640,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg27" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="730,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg28" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="820,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg29" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="910,495,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg30" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+
+        <!-- Category 4 -->
+        <Viewbox Width="75" Height="75" Margin="100,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg31" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="190,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg32" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="280,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg33" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="370,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg34" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="460,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg35" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="550,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg36" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="640,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg37" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="730,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg38" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="820,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg39" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="910,580,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg40" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+
+        <!-- Category 5 -->
+        <Viewbox Width="75" Height="75" Margin="100,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg41" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="190,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg42" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="280,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg43" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="370,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg44" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="460,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg45" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="550,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg46" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="640,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg47" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="730,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg48" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="820,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg49" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="910,665,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg50" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+
+        <!-- Category 6 -->
+        <Viewbox Width="75" Height="75" Margin="100,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg51" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="190,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg52" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="280,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg53" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="370,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg54" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="460,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg55" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="550,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg56" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="640,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg57" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="730,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg58" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="820,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg59" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+        <Viewbox Width="75" Height="75" Margin="910,750,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpImg60" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="75" Height="75" MouseUp="imageMouseUp"/>
+            </Border>
+        </Viewbox>
+         
+        <!-- Display Image -->
+        <Viewbox Width="400" Height="400" Margin="1100,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="WtpDisplayImg" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Height="500" Width="500"/>
+            </Border>
+        </Viewbox>
+
+        <Label x:Name="WordLabel" Content="Find Item: Apple" HorizontalAlignment="Left" Height="250" Margin="100,100,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="705" FontSize="64" FontFamily="Britannic Bold" TextBlock.TextAlignment="Center"/>
+        <Button Content="Confirm" HorizontalAlignment="Left" Height="98" Margin="1100,665,0,0" VerticalAlignment="Top" Width="400" Click="Word_To_Picture_Confirm_Button_Click" FontSize="32"/>
+
+        <Frame x:Name="WordToPictureFrame" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Page>

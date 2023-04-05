@@ -1,0 +1,20 @@
+﻿<Page x:Class="Memory_Test_Game.Help"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Memory_Test_Game"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1600"
+      Title="Help">
+
+    <Grid Background="White">
+        <Label Content="Help" HorizontalAlignment="Left" Height="100" Margin="750,60,0,0" VerticalAlignment="Top" Width="120" FontSize="48" />
+
+
+        <Button Content="Back" HorizontalAlignment="Left" Height="64" Margin="20,20,0,0" VerticalAlignment="Top" Width="200" FontSize="40" Click="Button_Click"/>
+        <Label Content="Naming:&#xD;&#xA;Fill in the name into the input box and press the confirm button&#xD;&#xA;&#xD;&#xA;Word-To-Picture:&#xD;&#xA;Select the picture that relates to the given item and press the confirm button&#xD;&#xA;&#xD;&#xA;Picture &amp; Word Sort:&#xD;&#xA;Select the category that best suits the picture/word provided and press the&#xD;&#xA;confirm button" HorizontalAlignment="Left" Height="500" Margin="170,220,0,0" VerticalAlignment="Top" Width="1240" FontSize="36"/>
+
+
+    </Grid>
+</Page>

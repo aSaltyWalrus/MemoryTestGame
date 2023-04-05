@@ -1,0 +1,23 @@
+﻿<Page x:Class="Memory_Test_Game.Naming"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Memory_Test_Game"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1600"
+      Title="Naming">
+
+    <Grid Background="White">
+        <Label Content="Naming" HorizontalAlignment="Left" Height="100" Margin="700,60,0,0" VerticalAlignment="Top" Width="230" FontSize="48" />
+        <Viewbox Width="500" Height="500" Margin="200,200,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border BorderThickness="2" BorderBrush="#FF000000">
+                <Image Name="NamingImg" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Height="500" Width="500" Source="/img/land-animal/gorilla.jpg"/>
+            </Border>
+        </Viewbox>
+        <Label Content="Input Name:" HorizontalAlignment="Left" Height="60" Margin="840,280,0,0" VerticalAlignment="Top" Width="200" FontSize="32"/>
+        <TextBox x:Name="Input" HorizontalAlignment="Left" Height="76" Margin="800,400,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="600" FontSize="40" TextAlignment="Center" BorderBrush="Black"/>
+        <Button Content="Confirm" HorizontalAlignment="Left" Height="64" Margin="1160,520,0,0" VerticalAlignment="Top" Width="240" FontSize="40" Click="Naming_Confirm_Button_Click"/>
+        <Frame x:Name="NamingFrame" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Page>

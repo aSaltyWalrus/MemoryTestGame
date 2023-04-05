@@ -1,0 +1,20 @@
+﻿<Page x:Class="Memory_Test_Game.Results"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Memory_Test_Game"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1600"
+      Title="Results">
+
+    <Grid Background="White">
+        <Label Content="Results" HorizontalAlignment="Left" Height="100" Margin="700,60,0,0" VerticalAlignment="Top" Width="230" FontSize="48" />
+        <Label x:Name="Naming" Content="Naming: X/60" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="100" Margin="200,210,0,0" VerticalAlignment="Top" Width="500" FontSize="48" />
+        <Label x:Name="WordToPicture" Content="Word To Picture: X/60" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="100" Margin="175,420,0,0" VerticalAlignment="Top" Width="550" FontSize="48" />
+        <Label x:Name="PictureSort" Content="Picture Sort: X/120" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="100" Margin="800,210,0,0" VerticalAlignment="Top" Width="500" FontSize="48" />
+        <Label x:Name="WordSort" Content="Word Sort: X/120" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="100" Margin="800,420,0,0" VerticalAlignment="Top" Width="500" FontSize="48" />
+        <Label x:Name="Total" Content="Total: X/360" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="100" Margin="550,630,0,0" VerticalAlignment="Top" Width="500" FontSize="48" />
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="100,750,0,0" VerticalAlignment="Top" Width="280" FontSize="48" Height="80" Click="Exit_Button_Click"/>
+    </Grid>
+</Page>
